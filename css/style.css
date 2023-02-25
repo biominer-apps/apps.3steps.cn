@@ -189,13 +189,15 @@ html.no-js #project-list, html.no-js footer {
   margin-bottom: 2px;
 }
 
-#main .category a:hover {
-  text-decoration: underline;
+#main .category a {
+  color: #0066CC; /* Sets the text color for the link */
+  text-decoration: none; /* Removes the underline from the link */
+  border-bottom: 2px solid #0066CC; /* Adds a bottom border to the link */
+  transition: border-bottom 0.2s ease-in-out; /* Makes the border transition smoothly on hover */
 }
 
-#main .category a {
-  color: #444;
-  text-decoration: none;
+#main .category a:hover {
+  border-bottom: 2px solid #003366; /* Changes the border color on hover */
 }
 
 #main .platform {
@@ -208,14 +210,21 @@ html.no-js #project-list, html.no-js footer {
     font-size: 9pt;
 }
 
-#main .platform.clj {
-    background: #8be;
-    color: #fff;
+#main p {
+  color: #666;
+  text-align: justify;
 }
 
-#main .platform.cljs {
+#main .platform.local {
+    background: #8be;
+    color: #fff;
+    margin: 5px;
+}
+
+#main .platform.cloud {
     background: #e99;
     color: #fff;
+    margin: 5px;
 }
 
 footer {
