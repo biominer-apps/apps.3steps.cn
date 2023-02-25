@@ -1,0 +1,34 @@
+quartet-rseqc-report:
+  name: Quartet RSeQC Report
+  url: https://github.com/biominer-apps/quartet-rseqc-report
+  categories: [Quality Control]
+  platforms: [local, cloud]
+  description: Visualizes Quality Control(QC) Results for Quartet RNA-Seq Data.
+
+quartet-wesqc-report:
+  name: Quartet WESQC Report
+  url: https://github.com/biominer-apps/quartet-wesqc-report
+  categories: [Quality Control]
+  platforms: [local, cloud]
+  description: Quality control of germline variants calling results using a Chinese Quartet family.
+
+quartet-wgsqc-report:
+  name: Quartet WGSQC Report
+  url: https://github.com/biominer-apps/quartet-wgsqc-report
+  categories: [Quality Control]
+  platforms: [local, cloud]
+  description: Quality control of germline variants calling results using a Chinese Quartet family.
+
+quartet-protqc-report:
+  name: Quartet ProtQC Report
+  url: https://github.com/biominer-apps/quartet-protqc-report
+  categories: [Quality Control]
+  platforms: [local, cloud]
+  description: Visualizes Quality Control(QC) Results for Quartet Proteomics Data.
+
+quartet-metqc-report:
+  name: Quartet MetQC Report
+  url: https://github.com/biominer-apps/quartet-metqc-report
+  categories: [Quality Control]
+  platforms: [local, cloud]
+  description: Visualizes Quality Control(QC) Results for Quartet Metabolomics Data.
